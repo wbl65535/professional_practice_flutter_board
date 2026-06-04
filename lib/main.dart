@@ -28,11 +28,11 @@ class PracticeHomePage extends StatelessWidget {
   static const String projectSlogan = '用 Flutter Web 记录小组分工、实践任务与 GitHub PR 协作过程';
 
   static const List<Member> members = [
-    Member(role: '组长', name: '张三', task: '创建仓库、维护 main 分支、创建 Issue、审核 PR'),
-    Member(role: '组员 A', name: '李四', task: '修改实践主题和页面口号'),
-    Member(role: '组员 B', name: '王五', task: '补充小组成员姓名与任务分工'),
-    Member(role: '组员 C', name: '赵六', task: '整理 Flutter 实践任务清单'),
-    Member(role: '组员 D', name: '孙七', task: '记录 GitHub 协作进度和提交说明'),
+    Member(role: '组长', name: 'WBL', task: '创建仓库、维护 main 分支、创建 Issue、审核 PR'),
+    Member(role: '组员 A', name: 'A', task: '修改实践主题和页面口号'),
+    Member(role: '组员 B', name: 'CLY', task: '补充小组成员姓名与任务分工'),
+    Member(role: '组员 C', name: 'C', task: '整理 Flutter 实践任务清单'),
+    Member(role: '组员 D', name: 'D', task: '记录 GitHub 协作进度和提交说明'),
   ];
 
   static const List<String> practiceTasks = [
