@@ -1,0 +1,1 @@
+本目录为学生初始 Flutter 示例项目。若需要运行 flutter test，可在本机 flutter create 后补充 test/widget_test.dart，或课堂只要求 flutter run -d chrome。
