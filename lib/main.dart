@@ -24,8 +24,8 @@ class ProfessionalPracticeApp extends StatelessWidget {
 class PracticeHomePage extends StatelessWidget {
   const PracticeHomePage({super.key});
 
-  static const String projectTitle = '第 1 组专业实践 Flutter 展示页';
-  static const String projectSlogan = '用 Flutter Web 展示小组实践主题、分工与协作过程';
+  static const String projectTitle = '专业实践 Flutter 协作成果展示';
+  static const String projectSlogan = '用 Flutter Web 记录小组分工、实践任务与 GitHub PR 协作过程';
 
   static const List<Member> members = [
     Member(role: '组长', name: '张三', task: '创建仓库、维护 main 分支、创建 Issue、审核 PR'),
