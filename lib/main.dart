@@ -36,11 +36,12 @@ class PracticeHomePage extends StatelessWidget {
   ];
 
   static const List<String> practiceTasks = [
-    '完成 Flutter Web 环境检查，确认 Chrome 或 Edge 可运行',
+    '检查 Flutter Web 环境，确认 Chrome 或 Edge 可运行',
+    '理解 Widget 树、声明式 UI 和 Flutter Web 的基本思想',
     '创建并运行个人 HelloWorld，提交带本人信息的截图',
-    '基于小组展示页项目完成一次 Fork + Pull Request 协作',
-    '组长审核并合并 Pull Request，形成最终小组展示页',
-  ];
+    '基于小组展示页项目完成 Fork + Branch + Pull Request 协作',
+    'PR 合并后提交 Contributors 标注截图',
+];
 
   static const List<String> progressNotes = [
     'main 分支保存 Flutter 项目源代码。',
