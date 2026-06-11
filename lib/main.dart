@@ -44,10 +44,10 @@ class PracticeHomePage extends StatelessWidget {
 ];
 
   static const List<String> progressNotes = [
-    'main 分支保存 Flutter 项目源代码。',
-    '每名组员只修改自己负责的常量区域。',
-    'Pull Request 合并后，在 Contributors 页面截图标注自己的头像。',
-    '如果时间允许，组长可继续尝试发布到 GitHub Pages。',
+    '组长主仓库的 main 分支保存 Flutter 项目源代码。',
+    '每名组员从自己的 Fork 创建任务分支并提交 Pull Request。',
+    '组长在 PR 中完成 review/comment 后再合并。',
+    'PR 合并后，每位成员到 Contributors 页面截图并标注自己的头像。',
   ];
 
   @override
